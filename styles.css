@@ -1,3 +1,10 @@
+/*  removes margin by default */
+* {
+    margin: 0;
+    box-sizing: border-box; 
+  }
+
+/* header portion of the webpage */
 .header {
     background-color: #1F2937;
     font-family:'Roboto';
@@ -78,4 +85,50 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+/* second portion of webpage, use cases */
+.use-cases {
+    font-family: 'Roboto';
+    /* creates flex items h3 and icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    padding: 50px;
+}
+
+.icons {
+    /* creates a flex item for each card */
+    display: flex;
+    gap: 40px;
+
+}
+
+.card {
+    height: 350px;
+    width: 200px;
+    font-size: 18px;
+    color:#1F2937;
+    text-align: center;
+    /* creates flex items .card img and .card p */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    /* fit image to height x width */
+    object-fit: cover;
+    /* adds border to image */
+    border: 5px solid #3882F6;
+    /* rounds edge of border */
+    border-radius: 10px;
 }
