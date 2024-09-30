@@ -1,30 +1,16 @@
 .header {
     background-color: #1F2937;
-    color: white;
-    font:'Roboto';
-    padding: 10px 150px;
+    font-family:'Roboto';
+    padding: 20px 150px;
     /* creates flex items links and intro */
     display: flex;
     flex-direction: column;
 }
 
-/* creates flex items ".links img" and ul */
+/* creates flex items ".links h1" and ul */
 .links {
-    padding: 10px 0;
     display: flex;
     justify-content: space-between;
-}
-
-/* creates flex items .text and .main-image */
-.intro {
-    padding: 40px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.text,
-.main-image {
-    flex: 1;
 }
 
 ul {
@@ -49,15 +35,32 @@ a {
     padding: 10px;
 }
 
+.intro {
+    padding: 60px 0;
+    /* creates flex items .text and .main-image */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
 h2 {
     font-size: 48px;
     font-weight: 900;
-    color:#F9FAF8
+    color:#F9FAF8;
+    margin: 0;
 }
 
 .text p {
     font-size: 18px;
     color:#E5E7EB;
+    margin: 0;
+    padding: 10px 0;
 }
 
 .intro img {
@@ -65,3 +68,14 @@ h2 {
     width: auto;
 }
 
+button {
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
