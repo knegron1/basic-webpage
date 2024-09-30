@@ -195,3 +195,13 @@ h3 {
     border-style: solid;
     border-color: #E5E7EB;
 }
+
+/* last part of webpage, the footer */
+.footer {
+    font-family: 'Roboto';
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 20px;
+}
