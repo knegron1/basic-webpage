@@ -132,3 +132,28 @@ h3 {
     /* rounds edge of border */
     border-radius: 10px;
 }
+
+/* third portion of the web page, the quote */
+.quote {
+    font-family: 'Roboto';
+    padding: 50px 400px;
+    background-color: #E5E7EB;
+    /* creates .quotation and .originator flex items */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotation {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.originator {
+    padding: 20px 30px;
+    align-self: flex-end;
+    font-weight: bold;
+}
