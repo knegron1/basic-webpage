@@ -153,7 +153,45 @@ h3 {
 }
 
 .originator {
-    padding: 20px 30px;
+    font-size: 18px;
+    padding: 0 30px;
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* fourth portion of the web page, the sign up box */
+.box {
+    padding: 100px;
+    /* creates flex item sign-up */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-up {
+    font-family: 'Roboto';
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    /* creates flex items h2 and p */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 100px;
+}
+
+.sign-up h2 {
+    font-size: 24px;
+}
+
+.sign-up p {
+    font-size: 18px;
+}
+
+.sign-up button {
+    font-size: 18px;
+    border-style: solid;
+    border-color: #E5E7EB;
 }
